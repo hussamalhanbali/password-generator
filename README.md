@@ -21,7 +21,7 @@ Install dependencies:
 3. Run the development server: npm run dev
 4. Access the application at: http://localhost:3000
 
-#Usage
+# Usage
 
 1. Adjust the password length using the slider.
 2. Observe the real-time changes in color and label of the strength indicator.
