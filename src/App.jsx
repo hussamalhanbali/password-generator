@@ -12,7 +12,7 @@ const App = () => {
       </Routes>
 
       <img
-        src="/techover-logo.png"
+        src="./public/techover-logo.png"
         alt="logo"
         style={{ width: "200px", marginTop: "15px" }}
       />
