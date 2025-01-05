@@ -244,12 +244,12 @@ const PasswordGenerator = () => {
             </span>
           </div>
 
-          <meter
+          {/* <meter
             min="5"
             max="100"
             value={range}
             style={{ appearance: "none" }}
-          ></meter>
+          ></meter> */}
           <style>{`
                   meter::-webkit-meter-bar {
                   background: #ddd;
@@ -274,6 +274,7 @@ const PasswordGenerator = () => {
             color: "#ffff",
             cursor: "pointer",
             marginBottom: "20px",
+            marginTop: "20px"
           }}
         >
           Generate
