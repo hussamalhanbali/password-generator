@@ -8,7 +8,7 @@ const App = () => {
     <div className="App">
       <p>Password Generator</p>
       <Routes>
-        <Route path="/" element={<PasswordGenerator />} />
+        <Route path="*" element={<PasswordGenerator />} />
       </Routes>
 
      <div>
