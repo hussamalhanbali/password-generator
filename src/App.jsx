@@ -11,11 +11,13 @@ const App = () => {
         <Route path="/" element={<PasswordGenerator />} />
       </Routes>
 
-      <img
-        src="./public/techover-logo.png"
-        alt="logo"
+     <div>
+     <img
+        src="./techover.png"
+        alt="Techover"
         style={{ width: "200px", marginTop: "15px" }}
       />
+     </div>
     </div>
   );
 };
